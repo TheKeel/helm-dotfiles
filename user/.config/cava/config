@@ -1,0 +1,53 @@
+# ~/.config/cava/
+[general]
+mode = normal
+framerate = 90
+autosens = 1
+overshoot = 0
+sensitivity = 100
+bars = 0
+bar_width = 1.0
+bar_spacing = 1.0
+lower_cutoff_freq = 50
+higher_cutoff_freq = 10000
+
+[input]
+method = pulse
+source = auto
+
+[output]
+method = noncurses
+channels = mono
+raw_target = /dev/stdout
+data_format = binary
+bit_format = 16bit
+ascii_max_range = 1000
+bar_delimiter = 59
+frame_delimiter = 10
+
+[color]
+gradient = 1
+gradient_color_1 = '#ff1493'
+gradient_color_2 = '#ff69b4'
+gradient_color_3 = '#ff85d0'
+gradient_color_4 = '#ff66ff'
+gradient_color_5 = '#e840ff'
+gradient_color_6 = '#da1fd8'
+gradient_color_7 = '#c820c8'
+gradient_color_8 = '#a91bb0'
+gradient_color_9 = '#7b1b8c'
+gradient_color_10 = '#4b0082'
+
+[smoothing]
+integral = 50
+monstercat = 0
+waves = 0
+gravity = 100
+ignore = 0
+
+[eq]
+1 = 1
+2 = 1
+3 = 1
+4 = 1
+5 = 1
