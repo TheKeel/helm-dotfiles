@@ -1,0 +1,34 @@
+#~/.config/dunst/
+[global]
+font = JetBrains Mono 12
+icon_position = left
+line_height = 30
+separator_height = 2
+padding = 10
+corner_radius = 12
+width = 350
+height = 50
+markup = no
+transparency = 0
+frame_width = 2
+frame_color = "#000000"
+separator_color = "#333333"
+idle_threshold = 120
+show_age_threshold = 60
+stack_duplicates = yes
+hide_duplicate_count = no
+close = ctrl+shift+d
+close_all = ctrl+shift+a
+context = ctrl+shift+space
+history = ctrl+shift+h
+
+[urgency_normal]
+background = "#000000"
+foreground = "#ffffff"
+timeout = 10
+icon = /usr/share/icons/Papirus-Dark/16x16/status/notification-new.svg
+
+[urgency_critical]
+background = "#000000"
+foreground = "#ffffff"
+frame_color = "#ffffff"
